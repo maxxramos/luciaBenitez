@@ -35,7 +35,7 @@ Baja autoestima, Desregulación emocional, Dificultades en la conducta, Habilida
 Nota para copilot: Aqui quiero que presentes los servicios de la siguiente manera, un icono, titulo del servicio, descripcion corta. Quiero que sea una card que al hacerle click se abra un pop up con mas informacion sobre el servicio, esta informacion generala tu. el pop up debe tenenr un boton que diga consultay  te diriga al whatsapp, ademas debe verse bien todo el texto tanto en desktop como en mobile.
 
 - Nosotros: Lic. en Psicología – Lucía Benítez Rey
-Nota para copilot: poner la siguiente imagen de ella img\lucia.jpg
+Nota para copilot: poner la siguiente imagen de ella img\lucia.png
 Egresada de la Universidad de la República
 Especializada en infancias y adolescencias
 
