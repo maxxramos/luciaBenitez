@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucía Benítez — Licenciada en Psicología | Punta del Este</title>
+    <meta name="description" content="Lucía Benítez, Licenciada en Psicología especializada en infancias y adolescencias. Atención presencial y online en Punta del Este, Maldonado. Habilitada por MSP.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ======================== NAVBAR ======================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">
+                <img src="img/logopsi.png" alt="Lucía Benítez Psicología">
+                <span class="nav-logo-name">Lucía Benítez</span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ======================== HERO ======================== -->
+    <section class="hero" id="inicio">
+        <div class="hero-content reveal">
+            <span class="hero-badge">Psicología · Infancias · Adolescencias</span>
+            <h1>Lucía Benítez <span>Licenciada en Psicología</span></h1>
+            <p class="hero-slogan">Encuentra el <em>equilibrio</em> que necesitas.</p>
+            <a href="#contacto" class="btn-primary">Consultá ahora</a>
+        </div>
+        <div class="hero-image reveal">
+            <img src="img/lugar.jpg" alt="Consultorio de Lucía Benítez">
+        </div>
+    </section>
+
+    <!-- ======================== SERVICIOS ======================== -->
+    <section class="section section-alt" id="servicios">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Servicios</h2>
+                <p>Acompañamiento profesional para cada etapa del camino</p>
+            </div>
+            <div class="services-grid">
+
+                <div class="service-card reveal" data-service="ansiedad">
+                    <div class="service-icon"><i class="fa-solid fa-wind"></i></div>
+                    <h3>Ansiedad</h3>
+                    <p class="service-short">Herramientas para comprender y gestionar la ansiedad en niños y adolescentes.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="atencionales">
+                    <div class="service-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3>Dificultades Atencionales</h3>
+                    <p class="service-short">Evaluación e intervención en problemas de atención, concentración y aprendizaje.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="depresion">
+                    <div class="service-icon"><i class="fa-solid fa-cloud-rain"></i></div>
+                    <h3>Depresión</h3>
+                    <p class="service-short">Acompañamiento empático en procesos de tristeza profunda y pérdida de disfrute.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="angustia">
+                    <div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3>Angustia</h3>
+                    <p class="service-short">Trabajo sobre las causas y manifestaciones de la angustia en diferentes etapas.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="duelo">
+                    <div class="service-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <h3>Duelo</h3>
+                    <p class="service-short">Acompañamiento en los procesos de pérdida, adaptación y resignificación.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="bullying">
+                    <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Bullying</h3>
+                    <p class="service-short">Intervención y apoyo ante situaciones de acoso escolar o ciberbullying.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="autoestima">
+                    <div class="service-icon"><i class="fa-solid fa-seedling"></i></div>
+                    <h3>Baja Autoestima</h3>
+                    <p class="service-short">Fortalecimiento de la identidad, seguridad y valoración personal.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="desregulacion">
+                    <div class="service-icon"><i class="fa-solid fa-water"></i></div>
+                    <h3>Desregulación Emocional</h3>
+                    <p class="service-short">Estrategias para reconocer, expresar y regular las emociones de forma saludable.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="conducta">
+                    <div class="service-icon"><i class="fa-solid fa-arrows-to-circle"></i></div>
+                    <h3>Dificultades en la Conducta</h3>
+                    <p class="service-short">Abordaje de comportamientos disruptivos con orientación a familias y cuidadores.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="sociales">
+                    <div class="service-icon"><i class="fa-solid fa-people-group"></i></div>
+                    <h3>Habilidades Sociales</h3>
+                    <p class="service-short">Desarrollo de competencias para relacionarse, comunicarse y vincularse mejor.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="impulsividad">
+                    <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Impulsividad</h3>
+                    <p class="service-short">Trabajo sobre el control de impulsos para mejorar la convivencia y el aprendizaje.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+                <div class="service-card reveal" data-service="mindfulness">
+                    <div class="service-icon"><i class="fa-solid fa-spa"></i></div>
+                    <h3>Mindfulness</h3>
+                    <p class="service-short">Técnicas de atención plena adaptadas a infancias y adolescencias para el bienestar.</p>
+                    <span class="card-link">Ver más →</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== MODAL SERVICIOS ======================== -->
+    <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal" id="modal">
+            <button class="modal-close" id="modalClose" aria-label="Cerrar">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-icon" id="modalIcon"></div>
+            <h3 id="modalTitle"></h3>
+            <div class="modal-body" id="modalDesc"></div>
+            <a href="https://wa.me/59898927972" target="_blank" rel="noopener noreferrer" class="btn-primary modal-cta" id="modalCTA">
+                <i class="fa-brands fa-whatsapp"></i> Consultar
+            </a>
+        </div>
+    </div>
+
+    <!-- ======================== NOSOTROS ======================== -->
+    <section class="section" id="nosotros">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Nosotros</h2>
+                <p>Conocé a la profesional que acompañará tu proceso</p>
+            </div>
+            <div class="about-content reveal">
+                <div class="about-photo">
+                    <img src="img/lucia.jpg" alt="Lucía Benítez Rey — Licenciada en Psicología">
+                </div>
+                <div class="about-info">
+                    <h3 class="about-name">Lic. en Psicología — Lucía Benítez Rey</h3>
+                    <div class="about-tags">
+                        <span class="about-tag"><i class="fa-solid fa-graduation-cap"></i> Egresada de la Universidad de la República</span>
+                        <span class="about-tag"><i class="fa-solid fa-child-reaching"></i> Especializada en infancias y adolescencias</span>
+                        <span class="about-tag"><i class="fa-solid fa-laptop"></i> Atención presencial y online</span>
+                        <span class="about-tag"><i class="fa-solid fa-hospital"></i> Habilitada por MSP</span>
+                    </div>
+                    <p class="about-bio">
+                        Acompaño, desde un abordaje integral, los procesos de niños y adolescentes, brindando orientación a sus familias.
+                    </p>
+                    <p class="about-bio about-bio--second">
+                        Realizo evaluaciones psicodiagnósticas para una comprensión profunda de cada situación particular.
+                    </p>
+                    <a href="#contacto" class="btn-primary about-cta">Reservar consulta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== CONTACTO ======================== -->
+    <section class="section section-alt" id="contacto">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Contacto</h2>
+                <p>Estamos en Punta del Este, esperándote</p>
+            </div>
+
+            <div class="contact-grid reveal">
+
+                <a href="tel:+59898927972" class="contact-card phone">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="contact-text">
+                        <span class="contact-label">Llamadas</span>
+                        <span class="contact-value">098 927 972</span>
+                    </div>
+                    <span class="contact-btn">Llamar</span>
+                </a>
+
+                <a href="https://wa.me/59898927972" target="_blank" rel="noopener noreferrer" class="contact-card whatsapp">
+                    <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                    <div class="contact-text">
+                        <span class="contact-label">WhatsApp</span>
+                        <span class="contact-value">098 927 972</span>
+                    </div>
+                    <span class="contact-btn">Escribir</span>
+                </a>
+
+                <div class="contact-card address">
+                    <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="contact-text">
+                        <span class="contact-label">Dirección</span>
+                        <span class="contact-value">Av. Chiverta y,<br>20000 Punta del Este, Maldonado</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- HORARIOS -->
+            <div class="schedule-bar reveal">
+                <div class="schedule-bar-title">
+                    <i class="fa-solid fa-clock"></i>
+                    <span>Horarios de atención</span>
+                </div>
+                <div class="schedule-days">
+                    <div class="schedule-day">
+                        <span class="sday-name">Lunes</span>
+                        <span class="sday-hours">Todo el día</span>
+                    </div>
+                    <div class="schedule-day">
+                        <span class="sday-name">Martes</span>
+                        <span class="sday-hours">Todo el día</span>
+                    </div>
+                    <div class="schedule-day">
+                        <span class="sday-name">Miércoles</span>
+                        <span class="sday-hours">Todo el día</span>
+                    </div>
+                    <div class="schedule-day">
+                        <span class="sday-name">Jueves</span>
+                        <span class="sday-hours">Todo el día</span>
+                    </div>
+                    <div class="schedule-day">
+                        <span class="sday-name">Viernes</span>
+                        <span class="sday-hours">Todo el día</span>
+                    </div>
+                    <div class="schedule-day">
+                        <span class="sday-name">Sábado</span>
+                        <span class="sday-hours">Todo el día</span>
+                    </div>
+                    <div class="schedule-day">
+                        <span class="sday-name">Domingo</span>
+                        <span class="sday-hours">Todo el día</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAPA -->
+            <div class="map-wrap reveal">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.15!2d-54.9336204!3d-34.9518417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9575058683629709:0xeb1ab4afc08dcb7b!2sLicenciada%20en%20Psicolog%C3%ADa%20Luc%C3%ADa%20Ben%C3%ADtez.%20Punta%20del%20Este%20y%20Maldonado.!5e0!3m2!1ses!2suy!4v1710000000000"
+                    width="100%"
+                    height="380"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Ubicación de Lucía Benítez Psicología en Google Maps">
+                </iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="img/logopsi.png" alt="Lucía Benítez Psicología" class="footer-logo">
+                <span class="footer-name">Lucía Benítez Psicología</span>
+                <span class="footer-slogan">Encuentra el equilibrio que necesitas.</span>
+            </div>
+            <nav class="footer-nav" aria-label="Navegación del footer">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- ======================== WHATSAPP FAB ======================== -->
+    <a href="https://wa.me/59898927972" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
